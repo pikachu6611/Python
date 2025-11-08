@@ -24,8 +24,6 @@ def negate_num():
     text_result.delete(0, 'end')
     text_result.insert(0, result)
 
-
-
 def clear_field():
     text_result.delete(0, 'end')
     global calculation
